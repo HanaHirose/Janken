@@ -7,3 +7,5 @@ This script is intended to teach people (including ourselves) the power of pytho
 Using any interactive console, people can play Janken (or rock paper scissors).
 
 As a bonus, this program calculates your win rate for you.
+
+Here is an example of how it works
