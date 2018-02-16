@@ -9,3 +9,5 @@ Using any interactive console, people can play Janken (or rock paper scissors).
 As a bonus, this program calculates your win rate for you.
 
 Here is an example of how it works
+
+I added one more line here.
