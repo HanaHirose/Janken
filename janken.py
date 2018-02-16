@@ -1,5 +1,7 @@
-PersonA = int(input("Tomo, please choose your hand\n 0 is scissors, 1 is rock, 2 is paper\n"))
-PersonB = int(input("Hana, please choose your hand\n 0 is scissors, 1 is rock, 2 is paper\n"))
+import getpass
+
+PersonA = int(getpass.getpass(prompt="Tomo, please choose your hand\n0 is scissors, 1 is rock, 2 is paper\n"))
+PersonB = int(getpass.getpass(prompt="Hana, please choose your hand\n0 is scissors, 1 is rock, 2 is paper\n"))
 
 if PersonA == 0:
     print("Tomo played scissors\n")
