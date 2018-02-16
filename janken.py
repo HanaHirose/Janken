@@ -6,9 +6,9 @@ PersonB = int(random.random()*3)
 if PersonA == PersonB:
     print("Oh, it was Aiko")
 elif PersonA - PersonB == 1:
-    print("PersonA won")
+    print("Tomo won")
 elif PersonA - PersonB == -2:
-    print("PersonA won")
+    print("Tomo won")
 else:
-    print("PersonB won")
+    print("Hana won")
 
