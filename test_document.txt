@@ -1,3 +1,7 @@
+This is for testing the merge ability of Git.
+Git is pronounced like "get", but not really.
+
+
 I do not understand lorem ipsum.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma
