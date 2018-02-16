@@ -2,6 +2,7 @@ import getpass
 
 PersonA_win = 0
 PersonB_win = 0
+Aiko = 0
 
 while True:
     PersonA = int(getpass.getpass(prompt="Tomo, please choose your hand\n0 is scissors, 1 is rock, 2 is paper\n"))
@@ -24,6 +25,7 @@ while True:
     
     if PersonA == PersonB:
         print("Oh, it was Aiko")
+        Aiko += 1
     elif (PersonA - PersonB)%3 == 1:
         print("Tomo won")
         PersonA_win += 1
@@ -36,4 +38,6 @@ while True:
         break
     
 print("Tomo won %d times\n" % PersonA_win)
-print("Hana won %d times" % PersonB_win)
+print("Hana won %d times\n" % PersonB_win)
+print("Aiko %d times\n" % Aiko )
+print("Tomo v.s. Hana\n %d : %d" % (PersonA_win/(PersonA_win+PersonB_win)*100, PersonB_win/(PersonA_win+PersonB_win)*100))
