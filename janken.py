@@ -1,7 +1,5 @@
-import random
-
-PersonA = int(random.random()*3)
-PersonB = int(random.random()*3)
+PersonA = int(input("Tomo, please choose your hand\n 0 is scissors, 1 is rock, 2 is paper\n"))
+PersonB = int(input("Hana, please choose your hand\n 0 is scissors, 1 is rock, 2 is paper\n"))
 
 if PersonA == 0:
     print("Tomo played scissors\n")
